@@ -100,20 +100,30 @@ header {
 }
 .middle-container-index {
 	display:flex;
+	justify-content: space-between;
 	.middle-conatiner-column-index{
-		width:49%;
+		width:48%;
 		h1 {
 			font-size: 2.0rem;
+
 		}
 		p{
 			font-size: @default-font-size;
+			margin-top: @default-margin;
 		}
 		ul {
+			margin-top: @default-margin;
+			display: flex;
+			flex-direction: column;
 			li{
 				border:1px solid rgb(207, 195, 219);
 				background-color: rgb(223, 211, 235);
 				font-size: @default-font-size;
-				height: 5%;
+				padding-top: 3%;
+				padding-left: 3%;
+				padding-bottom:3%;
+		
+				
 				
 				
 			}
