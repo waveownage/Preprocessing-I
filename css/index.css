@@ -146,3 +146,44 @@ header a {
   text-decoration: none;
   font-size: 1.2rem;
 }
+.Top-section-index {
+  background-color: #dfd3eb;
+  padding: 5%;
+}
+.Top-section-index h1 {
+  font-size: 2.8rem;
+}
+.Top-section-index p {
+  font-size: 1.2rem;
+  margin-top: 3%;
+}
+.Top-section-index hr {
+  margin-top: 3%;
+}
+.Top-section-index button {
+  color: white;
+  background-color: #73c796;
+  padding: 2%;
+  margin-top: 3%;
+}
+.middle-section-index {
+  margin-top: 3%;
+}
+.middle-container-index {
+  display: flex;
+}
+.middle-container-index .middle-conatiner-column-index {
+  width: 49%;
+}
+.middle-container-index .middle-conatiner-column-index h1 {
+  font-size: 2rem;
+}
+.middle-container-index .middle-conatiner-column-index p {
+  font-size: 1.2rem;
+}
+.middle-container-index .middle-conatiner-column-index ul li {
+  border: 1px solid #cfc3db;
+  background-color: #dfd3eb;
+  font-size: 1.2rem;
+  height: 5%;
+}
